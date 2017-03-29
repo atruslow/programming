@@ -1,4 +1,4 @@
-# programming
+# Programming
 
 1) Implement an algorithm to tell if a string has all unique characters.
 
