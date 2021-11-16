@@ -13,7 +13,7 @@ class Solution:
 
         merged_arrays = list(merge(nums1, nums2))
         array_len = len(merged_arrays)
-        half_point = int(array_len/2)
+        half_point = int(array_len / 2)
 
         if array_len % 2 == 1:
             return merged_arrays[half_point]
@@ -34,5 +34,7 @@ def test_works():
     assert _run([2], []) == 2.0
 
 
+if __name__ == "__main__":
+    import pytest
 
-
+    pytest.main([__file__])

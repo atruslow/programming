@@ -18,7 +18,6 @@ def guess(num: int) -> int:
 
 
 class Solution:
-
     def guessNumber(self, n: int) -> int:
         """
         We are playing the Guess Game. The game is as follows:
@@ -79,5 +78,3 @@ def test_works_a_fourth_time():
     global GUESS_VALUE
     GUESS_VALUE = 1
     assert _run(1) == 1
-
-

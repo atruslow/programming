@@ -2,7 +2,6 @@ from itertools import permutations, combinations
 
 
 class Solution:
-
     def lengthOfLongestSubstring(self, s: str) -> int:
         """
         Given a string s, find the length of the longest substring without repeating characters.
